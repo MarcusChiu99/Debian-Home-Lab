@@ -19,3 +19,770 @@
 [2026-02-27 00:00:45.599 +00:00] [INF] [139] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/photos"
 [2026-02-27 00:00:45.802 +00:00] [INF] [139] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
 [2026-02-27 00:00:45.812 +00:00] [INF] [139] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2026-02-27 04:49:43.518 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-02-27 04:49:43.713 +00:00] [INF] [7] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-02-27 04:49:43.741 +00:00] [INF] [7] Main: Jellyfin version: "10.11.6"
+[2026-02-27 04:49:43.743 +00:00] [INF] [7] Main: Environment Variables: ["[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_LOG_DIR, /config/log]"]
+[2026-02-27 04:49:43.745 +00:00] [INF] [7] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2026-02-27 04:49:43.745 +00:00] [INF] [7] Main: Operating system: "Debian GNU/Linux 13 (trixie)"
+[2026-02-27 04:49:43.745 +00:00] [INF] [7] Main: Architecture: X64
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: 64-Bit Process: True
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: User Interactive: True
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: Processor count: 8
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: Program data path: "/config"
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: Log directory path: "/config/log"
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: Config directory path: "/config/config"
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: Cache path: "/cache"
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: Temp directory path: "/tmp/jellyfin"
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2026-02-27 04:49:43.746 +00:00] [INF] [7] Main: Application directory: "/jellyfin/"
+[2026-02-27 04:49:43.758 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config/data"` (Fixed) successfully checked with "855GiB" free which is over the minimum of "2GiB".
+[2026-02-27 04:49:43.759 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/cache"` (Fixed) successfully checked with "855GiB" free which is over the minimum of "2GiB".
+[2026-02-27 04:49:43.759 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config"` (Fixed) successfully checked with "855GiB" free which is over the minimum of "2GiB".
+[2026-02-27 04:49:43.761 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-02-27 04:49:43.812 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Default;Default Timeout=30;Pooling=True"
+[2026-02-27 04:49:43.816 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-02-27 04:49:43.817 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-02-27 04:49:43.840 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-02-27 04:49:44.602 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage PreInitialisation.
+[2026-02-27 04:49:44.611 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-02-27 04:49:44.622 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-02-27 04:49:44.648 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-02-27 04:49:44.648 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-02-27 04:49:44.649 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-02-27 04:49:44.650 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.27.0.2"]
+[2026-02-27 04:49:44.650 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-02-27 04:49:44.650 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-02-27 04:49:44.650 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-02-27 04:49:44.810 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Default;Default Timeout=30;Pooling=True"
+[2026-02-27 04:49:44.810 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-02-27 04:49:44.810 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-02-27 04:49:44.814 +00:00] [INF] [7] Main: Prepare system for possible migrations
+[2026-02-27 04:49:44.838 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage CoreInitialisation.
+[2026-02-27 04:49:45.310 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.11.6.0"
+[2026-02-27 04:49:45.310 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.11.6.0"
+[2026-02-27 04:49:45.310 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.11.6.0"
+[2026-02-27 04:49:45.319 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.11.6.0"
+[2026-02-27 04:49:45.319 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.11.6.0"
+[2026-02-27 04:49:45.352 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage AppInitialisation.
+[2026-02-27 04:49:45.367 +00:00] [WRN] [15] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2026-02-27 04:49:45.367 +00:00] [WRN] [15] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2026-02-27 04:49:45.397 +00:00] [INF] [15] Main: Kestrel is listening on "0.0.0.0"
+[2026-02-27 04:49:45.406 +00:00] [WRN] [9] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {c2151c32-9f94-4c65-b412-55268565e1a5} may be persisted to storage in unencrypted form.
+[2026-02-27 04:49:45.941 +00:00] [WRN] [15] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2026-02-27 04:49:45.968 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-02-27 04:49:45.983 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-02-28 03:00:00.000 +00:00, which is 22:10:14.0171080 from now.
+[2026-02-27 04:49:45.986 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-02-28 02:00:00.000 +00:00, which is 21:10:14.0134285 from now.
+[2026-02-27 04:49:46.011 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "7.1.3"
+[2026-02-27 04:49:46.039 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-02-27 04:49:46.056 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-02-27 04:49:46.064 +00:00] [INF] [9] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
+[2026-02-27 04:49:46.074 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-02-27 04:49:46.303 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2026-02-27 04:49:48.033 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-02-27 04:49:48.034 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: ServerId: "f8af00bbd0db4732a02d3170a4b6d1ff"
+[2026-02-27 04:49:48.034 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-02-27 04:49:48.034 +00:00] [INF] [15] Main: Startup complete 0:00:04.7468956
+[2026-02-27 04:49:49.002 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 04:49:49.004 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 04:49:49.893 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 04:50:04.309 +00:00] [INF] [7] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 04:50:07.086 +00:00] [INF] [9] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 04:50:28.784 +00:00] [INF] [7] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "Harry Potter and the Chamber of Secrets". Stopped at "1258" ms
+[2026-02-27 04:53:52.404 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 04:57:40.406 +00:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 04:57:52.407 +00:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 04:58:04.408 +00:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2026-02-27 04:58:18.647 +00:00] [INF] [47] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 04:58:31.890 +00:00] [WRN] [48] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.4.215" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-02-27 04:58:31.893 +00:00] [INF] [48] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 05:00:30.679 +00:00] [INF] [51] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 05:00:30.962 +00:00] [INF] [51] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 05:04:18.962 +00:00] [INF] [44] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 05:08:54.962 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 05:12:42.962 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 05:16:30.962 +00:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 05:17:26.836 +00:00] [WRN] [70] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.4.215" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-02-27 05:17:26.966 +00:00] [INF] [70] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 06:27:11.312 +00:00] [INF] [59] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "Chengwei" has succeeded.
+[2026-02-27 06:27:11.313 +00:00] [INF] [59] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "Chengwei": 0/0
+[2026-02-27 06:27:11.318 +00:00] [INF] [59] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 5f5fa1dd-ceef-4248-83c5-43025cde9604
+[2026-02-27 06:27:11.511 +00:00] [INF] [59] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.24" request
+[2026-02-27 06:27:19.494 +00:00] [INF] [69] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 06:27:24.769 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin iOS" "1.7.0" playing "Harry Potter and the Chamber of Secrets". Stopped at "1482972" ms
+[2026-02-27 06:27:54.746 +00:00] [WRN] [29] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.4.24" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-02-27 06:27:54.751 +00:00] [INF] [29] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.24" closed
+[2026-02-27 06:32:37.903 +00:00] [INF] [71] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 06:32:55.721 +00:00] [INF] [76] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 06:33:05.570 +00:00] [INF] [73] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "Harry Potter and the Chamber of Secrets". Stopped at "1490606" ms
+[2026-02-27 06:33:14.124 +00:00] [INF] [75] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 06:33:22.830 +00:00] [INF] [76] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "DJI_20260123162510_0173_D". Stopped at "17929" ms
+[2026-02-27 06:33:26.303 +00:00] [INF] [84] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 06:33:30.867 +00:00] [INF] [76] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "DJI_20260131181804_0185_D". Stopped at "10345" ms
+[2026-02-27 06:33:32.498 +00:00] [INF] [75] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 06:33:37.997 +00:00] [INF] [75] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "DJI_20260123201146_0177_D". Stopped at "30250" ms
+[2026-02-27 06:33:39.078 +00:00] [INF] [72] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 06:34:22.519 +00:00] [INF] [75] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 06:34:24.030 +00:00] [INF] [75] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 06:34:28.612 +00:00] [INF] [58] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 06:34:29.668 +00:00] [INF] [58] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 06:34:33.357 +00:00] [INF] [74] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 06:34:39.303 +00:00] [INF] [59] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2026-02-27 06:34:39.305 +00:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-02-27 06:34:39.332 +00:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Found duplicate path: "/media/photos"
+[2026-02-27 06:34:39.364 +00:00] [INF] [59] Emby.Server.Implementations.Library.LibraryManager: Found duplicate path: "/media/photos"
+[2026-02-27 06:34:39.500 +00:00] [WRN] [59] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 06:34:39.566 +00:00] [INF] [68] Emby.Server.Implementations.Library.LibraryManager: Found duplicate path: "/media/photos"
+[2026-02-27 06:34:39.588 +00:00] [WRN] [68] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 06:34:41.107 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231122829_0004_D", Path: "/media/photos/Taiwan 2025/DJI_20251231122829_0004_D.MP4", Id: e2dfbde9-7291-cdcc-9def-18786ff1d999
+[2026-02-27 06:34:41.154 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231145926_0005_D", Path: "/media/photos/Taiwan 2025/DJI_20251231145926_0005_D.MP4", Id: e703f626-b9fa-03f2-b7ff-6a7443274a36
+[2026-02-27 06:34:41.178 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231160336_0006_D", Path: "/media/photos/Taiwan 2025/DJI_20251231160336_0006_D.MP4", Id: dd81703e-6f0f-50da-7c0d-c24fa0db52ee
+[2026-02-27 06:34:41.205 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231180702_0007_D", Path: "/media/photos/Taiwan 2025/DJI_20251231180702_0007_D.MP4", Id: bf7c04af-ee12-98f9-96bc-c265d1b93aff
+[2026-02-27 06:34:41.228 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231180738_0008_D", Path: "/media/photos/Taiwan 2025/DJI_20251231180738_0008_D.MP4", Id: c23c1b3f-1edd-7824-cb58-30ac6822074c
+[2026-02-27 06:34:41.253 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231184113_0009_D", Path: "/media/photos/Taiwan 2025/DJI_20251231184113_0009_D.MP4", Id: 941b6055-b22c-7e82-be5a-9a16d3748454
+[2026-02-27 06:34:41.277 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231185401_0010_D", Path: "/media/photos/Taiwan 2025/DJI_20251231185401_0010_D.MP4", Id: 7d6e64df-2758-a01b-c709-76a9c139b381
+[2026-02-27 06:34:41.312 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231193816_0011_D", Path: "/media/photos/Taiwan 2025/DJI_20251231193816_0011_D.MP4", Id: cc09a439-d7ff-b045-27e2-cceef2633822
+[2026-02-27 06:34:41.337 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231194449_0012_D", Path: "/media/photos/Taiwan 2025/DJI_20251231194449_0012_D.MP4", Id: bcf2b912-948e-7a34-b24a-6f2fdee3bbb9
+[2026-02-27 06:34:41.361 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231194703_0013_D", Path: "/media/photos/Taiwan 2025/DJI_20251231194703_0013_D.MP4", Id: a7ad341c-311a-5ff1-2883-c09f3587c4fa
+[2026-02-27 06:34:41.386 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231195540_0014_D", Path: "/media/photos/Taiwan 2025/DJI_20251231195540_0014_D.MP4", Id: 33a86cae-41c2-938e-acd3-fb45bd1092b6
+[2026-02-27 06:34:41.412 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231200851_0015_D", Path: "/media/photos/Taiwan 2025/DJI_20251231200851_0015_D.MP4", Id: 066662e1-a231-c244-890d-102b99fa4ef1
+[2026-02-27 06:34:41.438 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231210802_0016_D", Path: "/media/photos/Taiwan 2025/DJI_20251231210802_0016_D.MP4", Id: 3db1c863-e294-30ce-c922-436aded6dda5
+[2026-02-27 06:34:41.463 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231210850_0017_D", Path: "/media/photos/Taiwan 2025/DJI_20251231210850_0017_D.MP4", Id: 66a56060-6a4e-8af1-a4d4-d88cbfbab55e
+[2026-02-27 06:34:41.487 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231212909_0018_D", Path: "/media/photos/Taiwan 2025/DJI_20251231212909_0018_D.MP4", Id: 81c92b0f-a60e-e67a-4117-f92398984060
+[2026-02-27 06:34:41.513 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231214616_0019_D", Path: "/media/photos/Taiwan 2025/DJI_20251231214616_0019_D.MP4", Id: d0c0e087-e879-94d6-73c6-76073c443177
+[2026-02-27 06:34:41.538 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231215057_0020_D", Path: "/media/photos/Taiwan 2025/DJI_20251231215057_0020_D.MP4", Id: 8975719d-48ba-3995-fbb8-d553c21557c6
+[2026-02-27 06:34:41.562 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231215213_0021_D", Path: "/media/photos/Taiwan 2025/DJI_20251231215213_0021_D.MP4", Id: 29e1264f-f99e-f395-b8d9-0ae5027addb8
+[2026-02-27 06:34:41.585 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231215740_0023_D", Path: "/media/photos/Taiwan 2025/DJI_20251231215740_0023_D.MP4", Id: 4a33e93f-f709-06c3-f924-a8e9ac2ca001
+[2026-02-27 06:34:42.138 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231221238_0024_D", Path: "/media/photos/Taiwan 2025/DJI_20251231221238_0024_D.MP4", Id: 79ec2fca-cbd9-ec23-7c6c-0869e69f9285
+[2026-02-27 06:34:42.492 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231221821_0025_D", Path: "/media/photos/Taiwan 2025/DJI_20251231221821_0025_D.MP4", Id: c9433166-6d84-40aa-c3de-1e3db8692858
+[2026-02-27 06:34:42.530 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231221937_0026_D", Path: "/media/photos/Taiwan 2025/DJI_20251231221937_0026_D.MP4", Id: 7adc75ce-38f9-05af-3cc9-0beabd285e81
+[2026-02-27 06:34:42.559 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231222102_0027_D", Path: "/media/photos/Taiwan 2025/DJI_20251231222102_0027_D.MP4", Id: 98a6d369-2570-877c-fb4c-2945a2d41c8e
+[2026-02-27 06:34:42.588 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231222152_0028_D", Path: "/media/photos/Taiwan 2025/DJI_20251231222152_0028_D.MP4", Id: b26f5100-1da4-c3ec-c9cb-155293b3c0db
+[2026-02-27 06:34:42.629 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231222350_0029_D", Path: "/media/photos/Taiwan 2025/DJI_20251231222350_0029_D.MP4", Id: 2ee64314-29d8-3040-6c29-272c517cd6ab
+[2026-02-27 06:34:42.665 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231222936_0030_D", Path: "/media/photos/Taiwan 2025/DJI_20251231222936_0030_D.MP4", Id: 54cddeca-fb6d-a122-5193-09c19c0bd58e
+[2026-02-27 06:34:42.694 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231223036_0031_D", Path: "/media/photos/Taiwan 2025/DJI_20251231223036_0031_D.MP4", Id: 5f250edb-9fe1-19ea-b4e4-9e702f1f80f9
+[2026-02-27 06:34:42.734 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231223758_0032_D", Path: "/media/photos/Taiwan 2025/DJI_20251231223758_0032_D.MP4", Id: 2d3c11f6-0d9e-fbaf-b2c6-99a948afcccf
+[2026-02-27 06:34:42.771 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231223914_0033_D", Path: "/media/photos/Taiwan 2025/DJI_20251231223914_0033_D.MP4", Id: ad67b1d1-44ef-59e1-d58e-6531b6489d99
+[2026-02-27 06:34:42.800 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20251231230534_0034_D", Path: "/media/photos/Taiwan 2025/DJI_20251231230534_0034_D.MP4", Id: 760dc7b2-f844-3898-13ad-61c01ed93fd0
+[2026-02-27 06:34:42.825 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101063430_0035_D", Path: "/media/photos/Taiwan 2025/DJI_20260101063430_0035_D.MP4", Id: 10851df6-a237-b7c3-2608-3bb6949c7a98
+[2026-02-27 06:34:42.853 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101070505_0036_D", Path: "/media/photos/Taiwan 2025/DJI_20260101070505_0036_D.MP4", Id: 27ac678c-d0b3-5b94-a20c-719dd15b9c95
+[2026-02-27 06:34:42.880 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101072843_0037_D", Path: "/media/photos/Taiwan 2025/DJI_20260101072843_0037_D.MP4", Id: a681569d-5c93-93ee-2afe-bbed2ac6b0c2
+[2026-02-27 06:34:42.905 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101073526_0038_D", Path: "/media/photos/Taiwan 2025/DJI_20260101073526_0038_D.MP4", Id: 3dac9e24-34c4-3242-8434-349a46b7c245
+[2026-02-27 06:34:42.930 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101080515_0039_D", Path: "/media/photos/Taiwan 2025/DJI_20260101080515_0039_D.MP4", Id: 59d44cfd-391e-91f7-ae1d-af5905456700
+[2026-02-27 06:34:42.959 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101080559_0040_D", Path: "/media/photos/Taiwan 2025/DJI_20260101080559_0040_D.MP4", Id: d418dbdd-40cb-e3b8-ab92-755b50d347e0
+[2026-02-27 06:34:42.984 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101083518_0041_D", Path: "/media/photos/Taiwan 2025/DJI_20260101083518_0041_D.MP4", Id: d8c1bbfa-8d3b-0ac9-143a-6208fd724ae5
+[2026-02-27 06:34:43.009 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101090202_0042_D", Path: "/media/photos/Taiwan 2025/DJI_20260101090202_0042_D.MP4", Id: a5e7a043-80f2-5b45-903d-c5be22eaa7d1
+[2026-02-27 06:34:43.037 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101090653_0043_D", Path: "/media/photos/Taiwan 2025/DJI_20260101090653_0043_D.MP4", Id: 94c1aca5-62bc-0e06-84a7-448ce07ab9f5
+[2026-02-27 06:34:43.062 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260101090911_0044_D", Path: "/media/photos/Taiwan 2025/DJI_20260101090911_0044_D.MP4", Id: 2bb30560-672b-8226-b6d0-748355802626
+[2026-02-27 06:34:43.087 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260102132354_0045_D", Path: "/media/photos/Taiwan 2025/DJI_20260102132354_0045_D.MP4", Id: edb80eaa-22f9-8ce5-d9b1-4178350885f5
+[2026-02-27 06:34:43.112 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260102133557_0046_D", Path: "/media/photos/Taiwan 2025/DJI_20260102133557_0046_D.MP4", Id: c4cf3fdf-dfd9-f099-9788-e99e31796a8a
+[2026-02-27 06:34:44.017 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260102133832_0047_D", Path: "/media/photos/Taiwan 2025/DJI_20260102133832_0047_D.MP4", Id: 058c48e4-f4c6-65c4-daf7-1ba9441af718
+[2026-02-27 06:34:44.370 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260102134024_0048_D", Path: "/media/photos/Taiwan 2025/DJI_20260102134024_0048_D.MP4", Id: b25604a6-452c-db6b-baed-931bb6139c80
+[2026-02-27 06:34:44.430 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260102134157_0049_D", Path: "/media/photos/Taiwan 2025/DJI_20260102134157_0049_D.MP4", Id: 46f0328b-81b3-99a6-f38f-eb41e16be89e
+[2026-02-27 06:34:44.473 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260102134350_0050_D", Path: "/media/photos/Taiwan 2025/DJI_20260102134350_0050_D.MP4", Id: 73dd6508-e78b-caf6-465d-c6ff92e73749
+[2026-02-27 06:34:44.500 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260102134512_0051_D", Path: "/media/photos/Taiwan 2025/DJI_20260102134512_0051_D.MP4", Id: 8b2aba82-a019-6205-aca2-79353ae68289
+[2026-02-27 06:34:44.525 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260102202128_0052_D", Path: "/media/photos/Taiwan 2025/DJI_20260102202128_0052_D.MP4", Id: c3273563-6424-e138-89f5-78350c534e10
+[2026-02-27 06:34:44.550 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104133241_0053_D", Path: "/media/photos/Taiwan 2025/DJI_20260104133241_0053_D.MP4", Id: 7f112acf-fa5d-29ea-ce46-e0b8256b05ea
+[2026-02-27 06:34:44.577 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104133331_0054_D", Path: "/media/photos/Taiwan 2025/DJI_20260104133331_0054_D.MP4", Id: 5a298398-0d6e-f5e7-29eb-93adf48b0395
+[2026-02-27 06:34:44.603 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104133502_0055_D", Path: "/media/photos/Taiwan 2025/DJI_20260104133502_0055_D.MP4", Id: d158a4f9-f070-08d2-a1a7-975bc4be5b90
+[2026-02-27 06:34:44.629 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104133741_0056_D", Path: "/media/photos/Taiwan 2025/DJI_20260104133741_0056_D.MP4", Id: 8d3eac9f-a2a3-e66b-7afd-afa60b7d7cd4
+[2026-02-27 06:34:44.655 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104133927_0057_D", Path: "/media/photos/Taiwan 2025/DJI_20260104133927_0057_D.MP4", Id: 0ab4396f-b430-dff7-3d9e-bcba2b809773
+[2026-02-27 06:34:44.682 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104140229_0058_D", Path: "/media/photos/Taiwan 2025/DJI_20260104140229_0058_D.MP4", Id: 0495fde8-0580-0800-d645-6ccf00e64abb
+[2026-02-27 06:34:44.706 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104140256_0059_D", Path: "/media/photos/Taiwan 2025/DJI_20260104140256_0059_D.MP4", Id: f5920206-cc40-20f1-72eb-6edc266813b5
+[2026-02-27 06:34:44.732 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104140337_0060_D", Path: "/media/photos/Taiwan 2025/DJI_20260104140337_0060_D.MP4", Id: 67e93542-8041-e838-095f-9e169d8ee07a
+[2026-02-27 06:34:44.760 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104141130_0061_D", Path: "/media/photos/Taiwan 2025/DJI_20260104141130_0061_D.MP4", Id: 32b57ed7-e2da-2361-8fd9-f85bebce5dc3
+[2026-02-27 06:34:44.786 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104141217_0062_D", Path: "/media/photos/Taiwan 2025/DJI_20260104141217_0062_D.MP4", Id: 13dd34d9-8d06-deca-8038-3b315dd3d928
+[2026-02-27 06:34:44.810 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104141619_0063_D", Path: "/media/photos/Taiwan 2025/DJI_20260104141619_0063_D.MP4", Id: cd913927-9c8d-234a-25c6-c86b70f96df4
+[2026-02-27 06:34:44.835 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104141725_0064_D", Path: "/media/photos/Taiwan 2025/DJI_20260104141725_0064_D.MP4", Id: ab570249-348c-6bd5-56a2-cb103fdae7cf
+[2026-02-27 06:34:44.862 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104141823_0065_D", Path: "/media/photos/Taiwan 2025/DJI_20260104141823_0065_D.MP4", Id: 84302033-333e-9f64-09b2-01d9a3920832
+[2026-02-27 06:34:44.887 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104142005_0066_D", Path: "/media/photos/Taiwan 2025/DJI_20260104142005_0066_D.MP4", Id: e0c079e2-aec3-8f7d-af34-c04da4b65d89
+[2026-02-27 06:34:44.912 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104142201_0067_D", Path: "/media/photos/Taiwan 2025/DJI_20260104142201_0067_D.MP4", Id: d83dff87-5657-efd2-5645-33e097e1bc48
+[2026-02-27 06:34:44.935 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104142216_0068_D", Path: "/media/photos/Taiwan 2025/DJI_20260104142216_0068_D.MP4", Id: 54767998-7fda-587e-8c43-33c74e07fb06
+[2026-02-27 06:34:45.572 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104142408_0069_D", Path: "/media/photos/Taiwan 2025/DJI_20260104142408_0069_D.MP4", Id: b0f1950c-fb59-12d9-3d4a-647822d785b3
+[2026-02-27 06:34:45.916 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104142416_0070_D", Path: "/media/photos/Taiwan 2025/DJI_20260104142416_0070_D.MP4", Id: b3cc971a-654a-4435-48d3-f243863d1bf1
+[2026-02-27 06:34:45.955 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104142602_0071_D", Path: "/media/photos/Taiwan 2025/DJI_20260104142602_0071_D.MP4", Id: bbbf3143-8032-b0fd-b8e3-02b708bf6fbc
+[2026-02-27 06:34:45.984 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104142648_0072_D", Path: "/media/photos/Taiwan 2025/DJI_20260104142648_0072_D.MP4", Id: 855915b7-367c-3384-79f4-61e4855eb128
+[2026-02-27 06:34:46.025 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104142936_0073_D", Path: "/media/photos/Taiwan 2025/DJI_20260104142936_0073_D.MP4", Id: cf45deb0-140d-fa1f-ed71-ee6ae6d75279
+[2026-02-27 06:34:46.050 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104144331_0074_D", Path: "/media/photos/Taiwan 2025/DJI_20260104144331_0074_D.MP4", Id: cc39773d-ceae-edbe-a05d-bdc876a0cb5b
+[2026-02-27 06:34:46.076 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104144653_0075_D", Path: "/media/photos/Taiwan 2025/DJI_20260104144653_0075_D.MP4", Id: e9135917-4d6f-ef47-6565-32ca5c26539d
+[2026-02-27 06:34:46.100 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104145354_0076_D", Path: "/media/photos/Taiwan 2025/DJI_20260104145354_0076_D.MP4", Id: 8f79518d-c89b-72e0-4254-53afc4f18c75
+[2026-02-27 06:34:46.127 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104151532_0077_D", Path: "/media/photos/Taiwan 2025/DJI_20260104151532_0077_D.MP4", Id: 04f93192-1e35-3a79-71b4-f566fa540cdb
+[2026-02-27 06:34:46.151 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260104152308_0078_D", Path: "/media/photos/Taiwan 2025/DJI_20260104152308_0078_D.MP4", Id: 7e22e445-85b3-2e07-ef09-43908c319ac5
+[2026-02-27 06:34:46.175 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260105202855_0079_D", Path: "/media/photos/Taiwan 2025/DJI_20260105202855_0079_D.MP4", Id: 0b4c3e76-c55e-aa27-9f25-942174190655
+[2026-02-27 06:34:46.199 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260105203410_0080_D", Path: "/media/photos/Taiwan 2025/DJI_20260105203410_0080_D.MP4", Id: c83477ed-a2ae-d7af-95e7-4bb5f2636b02
+[2026-02-27 06:34:46.226 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260106145730_0081_D", Path: "/media/photos/Taiwan 2025/DJI_20260106145730_0081_D.MP4", Id: 8f93e0bd-99e6-8bb1-e1bf-f4948225f013
+[2026-02-27 06:34:46.252 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260106150112_0082_D", Path: "/media/photos/Taiwan 2025/DJI_20260106150112_0082_D.MP4", Id: e3fe6fc6-a605-446c-c9e0-ef77c20f3624
+[2026-02-27 06:34:46.277 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260106150349_0083_D", Path: "/media/photos/Taiwan 2025/DJI_20260106150349_0083_D.MP4", Id: b661c8d5-5302-bb36-0809-37190d27df01
+[2026-02-27 06:34:46.302 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260106150712_0084_D", Path: "/media/photos/Taiwan 2025/DJI_20260106150712_0084_D.MP4", Id: 41b25108-a48c-f7a5-6b16-36fa4148e650
+[2026-02-27 06:34:46.329 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107134015_0085_D", Path: "/media/photos/Taiwan 2025/DJI_20260107134015_0085_D.MP4", Id: fb4c276e-5a66-af0e-abc0-57af4ea3e428
+[2026-02-27 06:34:46.353 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107134141_0086_D", Path: "/media/photos/Taiwan 2025/DJI_20260107134141_0086_D.MP4", Id: 0d2ba04d-2ff9-426f-e94b-536c3d7a157c
+[2026-02-27 06:34:46.377 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107134619_0087_D", Path: "/media/photos/Taiwan 2025/DJI_20260107134619_0087_D.MP4", Id: 1751c456-803b-249d-eb6e-4d698adb22f0
+[2026-02-27 06:34:46.408 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107135630_0088_D", Path: "/media/photos/Taiwan 2025/DJI_20260107135630_0088_D.MP4", Id: 21e2bd56-2381-2ce5-d93f-d7871391e3e4
+[2026-02-27 06:34:46.432 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107154613_0089_D", Path: "/media/photos/Taiwan 2025/DJI_20260107154613_0089_D.MP4", Id: d52ba89a-151a-a3d4-2158-287fbf1bb665
+[2026-02-27 06:34:46.456 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107160211_0090_D", Path: "/media/photos/Taiwan 2025/DJI_20260107160211_0090_D.MP4", Id: 1503fe3e-ea03-5d8f-97db-df2be63ad975
+[2026-02-27 06:34:46.480 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107160539_0091_D", Path: "/media/photos/Taiwan 2025/DJI_20260107160539_0091_D.MP4", Id: f5c1d38b-9a60-627d-f117-e5db77ffe0cc
+[2026-02-27 06:34:47.371 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107161413_0092_D", Path: "/media/photos/Taiwan 2025/DJI_20260107161413_0092_D.MP4", Id: b41f82c0-1b44-6d07-9588-35b7896724fb
+[2026-02-27 06:34:47.714 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107162112_0093_D", Path: "/media/photos/Taiwan 2025/DJI_20260107162112_0093_D.MP4", Id: bea945ad-96a3-242e-d023-eeca4667e68b
+[2026-02-27 06:34:47.775 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107163248_0094_D", Path: "/media/photos/Taiwan 2025/DJI_20260107163248_0094_D.MP4", Id: 761a5723-8236-091e-e092-4e859dad9fbd
+[2026-02-27 06:34:47.814 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107163353_0095_D", Path: "/media/photos/Taiwan 2025/DJI_20260107163353_0095_D.MP4", Id: b6b28d15-18a0-29b0-958f-f41eee6f06ef
+[2026-02-27 06:34:47.839 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107171519_0096_D", Path: "/media/photos/Taiwan 2025/DJI_20260107171519_0096_D.MP4", Id: c84cabf4-8f3f-7e9f-ab07-92cdd037de93
+[2026-02-27 06:34:47.864 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107171820_0097_D", Path: "/media/photos/Taiwan 2025/DJI_20260107171820_0097_D.MP4", Id: 9870c558-bb68-813b-df29-4da743956161
+[2026-02-27 06:34:47.890 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107172036_0098_D", Path: "/media/photos/Taiwan 2025/DJI_20260107172036_0098_D.MP4", Id: 7b14d0fc-2934-d55c-f01b-364be28258ab
+[2026-02-27 06:34:47.917 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107172405_0099_D", Path: "/media/photos/Taiwan 2025/DJI_20260107172405_0099_D.MP4", Id: 0b25a486-75ea-3991-c901-4c9edeb563a7
+[2026-02-27 06:34:47.943 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107172447_0100_D", Path: "/media/photos/Taiwan 2025/DJI_20260107172447_0100_D.MP4", Id: ed3d95b6-ddbc-e7b1-4d7b-c4de8ef3a33d
+[2026-02-27 06:34:47.967 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107172642_0101_D", Path: "/media/photos/Taiwan 2025/DJI_20260107172642_0101_D.MP4", Id: 8534dd2b-a593-7e11-7cd3-b23059456f4f
+[2026-02-27 06:34:47.991 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107172652_0102_D", Path: "/media/photos/Taiwan 2025/DJI_20260107172652_0102_D.MP4", Id: 293a2c2d-8fa6-a7d8-1c5f-feefdefbd68f
+[2026-02-27 06:34:48.018 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260107173927_0103_D", Path: "/media/photos/Taiwan 2025/DJI_20260107173927_0103_D.MP4", Id: 5bb3ce1c-16c1-ecea-c8e1-7838688d2cd3
+[2026-02-27 06:34:48.041 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110112526_0104_D", Path: "/media/photos/Taiwan 2025/DJI_20260110112526_0104_D.MP4", Id: 05e5306b-eded-8d13-f16b-7abeb7e9c901
+[2026-02-27 06:34:48.067 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110112739_0105_D", Path: "/media/photos/Taiwan 2025/DJI_20260110112739_0105_D.MP4", Id: d04dd360-b81c-c425-1f31-66a653f124bc
+[2026-02-27 06:34:48.093 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110113038_0106_D", Path: "/media/photos/Taiwan 2025/DJI_20260110113038_0106_D.MP4", Id: e216621b-152a-c419-61db-5c2dbea5e608
+[2026-02-27 06:34:48.118 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110113327_0107_D", Path: "/media/photos/Taiwan 2025/DJI_20260110113327_0107_D.MP4", Id: de075d55-6ea0-f38b-02c5-06977c2af9d8
+[2026-02-27 06:34:48.141 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110141818_0108_D", Path: "/media/photos/Taiwan 2025/DJI_20260110141818_0108_D.MP4", Id: 9e170eb0-73cb-e549-484e-fa6f04bd8cf3
+[2026-02-27 06:34:48.165 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110142836_0109_D", Path: "/media/photos/Taiwan 2025/DJI_20260110142836_0109_D.MP4", Id: 779270b8-551d-26c3-e23a-b17db8cecd61
+[2026-02-27 06:34:48.192 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110154439_0110_D", Path: "/media/photos/Taiwan 2025/DJI_20260110154439_0110_D.MP4", Id: 51e325ca-ecd7-6957-f5bf-d453a351152e
+[2026-02-27 06:34:48.217 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110154557_0111_D", Path: "/media/photos/Taiwan 2025/DJI_20260110154557_0111_D.MP4", Id: ff7eff03-740f-c476-89fb-83340ee9f645
+[2026-02-27 06:34:48.241 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110154606_0112_D", Path: "/media/photos/Taiwan 2025/DJI_20260110154606_0112_D.MP4", Id: 173c7628-5578-a7d4-7383-dc4b2866e53a
+[2026-02-27 06:34:48.265 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110162121_0113_D", Path: "/media/photos/Taiwan 2025/DJI_20260110162121_0113_D.MP4", Id: 8c066d5a-acb9-18ce-27d0-984e3642da06
+[2026-02-27 06:34:49.190 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110162405_0114_D", Path: "/media/photos/Taiwan 2025/DJI_20260110162405_0114_D.MP4", Id: 8634d02a-efdc-8db8-e210-c7be860f2397
+[2026-02-27 06:34:49.522 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110165829_0115_D", Path: "/media/photos/Taiwan 2025/DJI_20260110165829_0115_D.MP4", Id: 8b71f609-c3b0-f294-310e-cbb9edcfecc5
+[2026-02-27 06:34:49.585 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110180011_0116_D", Path: "/media/photos/Taiwan 2025/DJI_20260110180011_0116_D.MP4", Id: 421041d7-4ea6-344b-b8d4-48f3c303efdf
+[2026-02-27 06:34:49.623 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110180713_0117_D", Path: "/media/photos/Taiwan 2025/DJI_20260110180713_0117_D.MP4", Id: 14cdaeee-a2d2-b2b3-af75-e74a3b822056
+[2026-02-27 06:34:49.647 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110180909_0118_D", Path: "/media/photos/Taiwan 2025/DJI_20260110180909_0118_D.MP4", Id: 443fd515-b0b9-3c88-a947-6fc097a567b4
+[2026-02-27 06:34:49.671 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110181607_0119_D", Path: "/media/photos/Taiwan 2025/DJI_20260110181607_0119_D.MP4", Id: 621ccc12-e5d6-56af-bd33-a31ea8322552
+[2026-02-27 06:34:49.695 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110181837_0120_D", Path: "/media/photos/Taiwan 2025/DJI_20260110181837_0120_D.MP4", Id: 0b0bcafe-cf44-0d19-345e-9e935dbaae26
+[2026-02-27 06:34:49.724 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110182029_0121_D", Path: "/media/photos/Taiwan 2025/DJI_20260110182029_0121_D.MP4", Id: ea630440-a13f-b55c-a9eb-9cf57c100c5d
+[2026-02-27 06:34:49.748 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110182542_0122_D", Path: "/media/photos/Taiwan 2025/DJI_20260110182542_0122_D.MP4", Id: 82577242-08c8-dda0-8ff0-48039d0a9017
+[2026-02-27 06:34:49.773 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110182734_0123_D", Path: "/media/photos/Taiwan 2025/DJI_20260110182734_0123_D.MP4", Id: 45d65b38-cb71-7502-3894-6ae045324033
+[2026-02-27 06:34:49.800 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110182850_0124_D", Path: "/media/photos/Taiwan 2025/DJI_20260110182850_0124_D.MP4", Id: da973786-3158-4e50-a7e2-368e922623de
+[2026-02-27 06:34:49.824 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260110183102_0125_D", Path: "/media/photos/Taiwan 2025/DJI_20260110183102_0125_D.MP4", Id: 6383b5cb-8e1f-6947-ed7a-d60a43de5f20
+[2026-02-27 06:34:49.849 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112095903_0126_D", Path: "/media/photos/Taiwan 2025/DJI_20260112095903_0126_D.MP4", Id: d5bb00f8-34aa-aabd-a443-9b895d636395
+[2026-02-27 06:34:49.874 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112101052_0127_D", Path: "/media/photos/Taiwan 2025/DJI_20260112101052_0127_D.MP4", Id: 649a39a8-ed63-d23f-830f-d45b4f377bc4
+[2026-02-27 06:34:49.900 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112101259_0128_D", Path: "/media/photos/Taiwan 2025/DJI_20260112101259_0128_D.MP4", Id: efa90780-0aa4-841e-d656-4b6f4fd85498
+[2026-02-27 06:34:49.924 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112101831_0129_D", Path: "/media/photos/Taiwan 2025/DJI_20260112101831_0129_D.MP4", Id: 41f19583-d665-f96e-67ea-fb2bc5375d05
+[2026-02-27 06:34:49.948 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112101915_0130_D", Path: "/media/photos/Taiwan 2025/DJI_20260112101915_0130_D.MP4", Id: 4610226a-3243-0613-d234-1091d1173c55
+[2026-02-27 06:34:49.973 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112102340_0131_D", Path: "/media/photos/Taiwan 2025/DJI_20260112102340_0131_D.MP4", Id: 2a0080b7-fcf5-af7d-36b8-e7a8c64a4af1
+[2026-02-27 06:34:50.000 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112115246_0133_D", Path: "/media/photos/Taiwan 2025/DJI_20260112115246_0133_D.MP4", Id: cc0d7e4e-053c-b827-26d9-cabb464fe15b
+[2026-02-27 06:34:50.026 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112115451_0134_D", Path: "/media/photos/Taiwan 2025/DJI_20260112115451_0134_D.MP4", Id: 9f83fcfe-2151-c18d-d814-39a4db5df964
+[2026-02-27 06:34:50.050 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112120207_0135_D", Path: "/media/photos/Taiwan 2025/DJI_20260112120207_0135_D.MP4", Id: 02ba4e5d-be0a-b256-47f8-d475a605d69f
+[2026-02-27 06:34:50.075 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112125152_0136_D", Path: "/media/photos/Taiwan 2025/DJI_20260112125152_0136_D.MP4", Id: 3398b980-e6f6-3dd9-ae83-6c2d0314df62
+[2026-02-27 06:34:50.101 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112130522_0137_D", Path: "/media/photos/Taiwan 2025/DJI_20260112130522_0137_D.MP4", Id: 5dfcbd65-7c96-c065-81ca-662e5cdba131
+[2026-02-27 06:34:50.126 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112134153_0138_D", Path: "/media/photos/Taiwan 2025/DJI_20260112134153_0138_D.MP4", Id: 79edc955-fe70-6980-870c-ca14a5983446
+[2026-02-27 06:34:50.715 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112134158_0139_D", Path: "/media/photos/Taiwan 2025/DJI_20260112134158_0139_D.MP4", Id: 52daab5a-6173-6a66-fdd1-010338b42b44
+[2026-02-27 06:34:51.070 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112134658_0140_D", Path: "/media/photos/Taiwan 2025/DJI_20260112134658_0140_D.MP4", Id: 4f173dcd-3355-88d6-bfb4-d3356c56aac9
+[2026-02-27 06:34:51.143 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112134846_0141_D", Path: "/media/photos/Taiwan 2025/DJI_20260112134846_0141_D.MP4", Id: b4281d7b-2456-6f8b-f300-84ca5c873303
+[2026-02-27 06:34:51.169 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112134936_0142_D", Path: "/media/photos/Taiwan 2025/DJI_20260112134936_0142_D.MP4", Id: bd1a96f7-7860-f096-ff4a-821b5fb07feb
+[2026-02-27 06:34:51.195 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112140428_0143_D", Path: "/media/photos/Taiwan 2025/DJI_20260112140428_0143_D.MP4", Id: e65b4617-0cbd-1b66-0c4a-dd6acbb7a78c
+[2026-02-27 06:34:51.221 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112141216_0144_D", Path: "/media/photos/Taiwan 2025/DJI_20260112141216_0144_D.MP4", Id: abf40257-e110-d8c6-2654-5952ddbd261b
+[2026-02-27 06:34:51.249 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112155316_0145_D", Path: "/media/photos/Taiwan 2025/DJI_20260112155316_0145_D.MP4", Id: 8a0ebecf-dded-5b03-142c-a2ca3b8589d9
+[2026-02-27 06:34:51.274 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112155339_0146_D", Path: "/media/photos/Taiwan 2025/DJI_20260112155339_0146_D.MP4", Id: 11ae8f68-b47a-f7a0-3820-0b2ea57dc577
+[2026-02-27 06:34:51.298 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112181708_0147_D", Path: "/media/photos/Taiwan 2025/DJI_20260112181708_0147_D.MP4", Id: 1ce24378-35a5-6b97-c9d0-95753cb456a0
+[2026-02-27 06:34:51.322 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112185113_0148_D", Path: "/media/photos/Taiwan 2025/DJI_20260112185113_0148_D.MP4", Id: d631121c-919c-6c9c-885f-d47e1111dfc7
+[2026-02-27 06:34:51.351 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112185834_0149_D", Path: "/media/photos/Taiwan 2025/DJI_20260112185834_0149_D.MP4", Id: 57d6240e-baed-4c8e-f377-3d5c63b71851
+[2026-02-27 06:34:51.375 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260112214858_0150_D", Path: "/media/photos/Taiwan 2025/DJI_20260112214858_0150_D.MP4", Id: 9e5222a5-6f10-a040-4535-72b5e3adb5ce
+[2026-02-27 06:34:51.400 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113125558_0151_D", Path: "/media/photos/Taiwan 2025/DJI_20260113125558_0151_D.MP4", Id: 710a1e7f-c276-a57b-0e17-096615d3a20f
+[2026-02-27 06:34:51.426 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113133337_0152_D", Path: "/media/photos/Taiwan 2025/DJI_20260113133337_0152_D.MP4", Id: 8b7b935f-dd58-2961-ffac-5ddeb1742a73
+[2026-02-27 06:34:51.451 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113133707_0153_D", Path: "/media/photos/Taiwan 2025/DJI_20260113133707_0153_D.MP4", Id: d709073f-1b83-5842-ad03-75417a2f3f77
+[2026-02-27 06:34:51.475 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113134109_0154_D", Path: "/media/photos/Taiwan 2025/DJI_20260113134109_0154_D.MP4", Id: c61e5fa2-525b-e557-3f58-96b456de8759
+[2026-02-27 06:34:51.499 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113141411_0155_D", Path: "/media/photos/Taiwan 2025/DJI_20260113141411_0155_D.MP4", Id: 5642c358-8d6c-add3-3d61-6eaa1c4e1cdb
+[2026-02-27 06:34:51.526 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113142145_0156_D", Path: "/media/photos/Taiwan 2025/DJI_20260113142145_0156_D.MP4", Id: 55526025-ca27-e192-e401-31273318a7c0
+[2026-02-27 06:34:51.551 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113143424_0157_D", Path: "/media/photos/Taiwan 2025/DJI_20260113143424_0157_D.MP4", Id: 32c4ce2e-52fa-599c-07e9-65ab5cb6a002
+[2026-02-27 06:34:51.576 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113145037_0158_D", Path: "/media/photos/Taiwan 2025/DJI_20260113145037_0158_D.MP4", Id: 43be2478-4887-5777-125b-d7d75e926ba4
+[2026-02-27 06:34:51.600 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113150000_0159_D", Path: "/media/photos/Taiwan 2025/DJI_20260113150000_0159_D.MP4", Id: d0738edf-8772-15ee-5467-91b2d505bd9c
+[2026-02-27 06:34:51.626 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260113153314_0160_D", Path: "/media/photos/Taiwan 2025/DJI_20260113153314_0160_D.MP4", Id: b70c313f-80cd-34ab-9869-30f8665f64e1
+[2026-02-27 06:34:51.652 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260115135610_0161_D", Path: "/media/photos/Taiwan 2025/DJI_20260115135610_0161_D.MP4", Id: ebffcd92-8c4c-6f18-145b-11e63105ba8b
+[2026-02-27 06:34:51.676 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260115141147_0162_D", Path: "/media/photos/Taiwan 2025/DJI_20260115141147_0162_D.MP4", Id: b1d6b3e8-9576-fe19-d82d-e88789f31c5e
+[2026-02-27 06:34:51.699 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260115151246_0163_D", Path: "/media/photos/Taiwan 2025/DJI_20260115151246_0163_D.MP4", Id: e529d044-ae47-0a51-3f9e-f767f3a418af
+[2026-02-27 06:34:51.736 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260117142120_0164_D", Path: "/media/photos/Taiwan 2025/DJI_20260117142120_0164_D.MP4", Id: 401ddc0b-760e-1a15-3cea-e91a760621e9
+[2026-02-27 06:34:51.762 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260117155843_0165_D", Path: "/media/photos/Taiwan 2025/DJI_20260117155843_0165_D.MP4", Id: 550b8c75-0d9a-2397-17ca-b1efe269d28d
+[2026-02-27 06:34:52.845 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260117162157_0166_D", Path: "/media/photos/Taiwan 2025/DJI_20260117162157_0166_D.MP4", Id: 69d2e149-c5f3-14ec-20ba-57c6d2db31dc
+[2026-02-27 06:34:53.178 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260117172312_0167_D", Path: "/media/photos/Taiwan 2025/DJI_20260117172312_0167_D.MP4", Id: 7535a95d-992a-9861-7f49-81b195fbf6f8
+[2026-02-27 06:34:53.240 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260117220726_0168_D", Path: "/media/photos/Taiwan 2025/DJI_20260117220726_0168_D.MP4", Id: 9570ad2f-7874-6338-3dc9-aea64a6e89f3
+[2026-02-27 06:34:53.267 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260122135246_0169_D", Path: "/media/photos/Taiwan 2025/DJI_20260122135246_0169_D.MP4", Id: 49969cd0-e3e1-6eaf-ffe5-de130d937fd9
+[2026-02-27 06:34:53.296 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260122135500_0170_D", Path: "/media/photos/Taiwan 2025/DJI_20260122135500_0170_D.MP4", Id: 2d3e4e9d-59e2-0b14-2106-d0fe52375d9e
+[2026-02-27 06:34:53.322 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260123152417_0171_D", Path: "/media/photos/Taiwan 2025/DJI_20260123152417_0171_D.MP4", Id: 5c9d62b8-df80-c160-401c-9adf368f99d3
+[2026-02-27 06:34:53.348 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260123160503_0172_D", Path: "/media/photos/Taiwan 2025/DJI_20260123160503_0172_D.MP4", Id: abe6cf80-7b44-2985-3b45-5d89cee921ce
+[2026-02-27 06:34:53.373 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260123162510_0173_D", Path: "/media/photos/Taiwan 2025/DJI_20260123162510_0173_D.MP4", Id: 5f170f3f-9016-d899-47b9-5c0f9e05f5b2
+[2026-02-27 06:34:53.400 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260123162624_0174_D", Path: "/media/photos/Taiwan 2025/DJI_20260123162624_0174_D.MP4", Id: 69679bd5-f461-9f94-165c-8b1b022a921e
+[2026-02-27 06:34:53.425 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260123162711_0175_D", Path: "/media/photos/Taiwan 2025/DJI_20260123162711_0175_D.MP4", Id: b9858c10-bd91-9445-7c3d-e857f204c654
+[2026-02-27 06:34:53.450 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260123165853_0176_D", Path: "/media/photos/Taiwan 2025/DJI_20260123165853_0176_D.MP4", Id: 51a16521-2f1d-03b6-5be7-51529dcd4b61
+[2026-02-27 06:34:53.476 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260123201146_0177_D", Path: "/media/photos/Taiwan 2025/DJI_20260123201146_0177_D.MP4", Id: e90372c3-8bcd-fadb-9d80-ac475a203bd8
+[2026-02-27 06:34:53.502 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260125142018_0178_D", Path: "/media/photos/Taiwan 2025/DJI_20260125142018_0178_D.MP4", Id: 4e1b11fe-b51d-dfbc-aded-b13f4f956b7a
+[2026-02-27 06:34:53.528 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260125142331_0179_D", Path: "/media/photos/Taiwan 2025/DJI_20260125142331_0179_D.MP4", Id: a9bc624b-ebc2-75c1-cd7c-5ebbb2f460ee
+[2026-02-27 06:34:53.552 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260125150319_0180_D", Path: "/media/photos/Taiwan 2025/DJI_20260125150319_0180_D.MP4", Id: d4218a17-863c-89ee-0123-f7275eef1826
+[2026-02-27 06:34:53.576 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260125164147_0181_D", Path: "/media/photos/Taiwan 2025/DJI_20260125164147_0181_D.MP4", Id: 9ec5b6ed-5ba9-117e-3a15-deb07bd3b868
+[2026-02-27 06:34:53.602 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260127150000_0182_D", Path: "/media/photos/Taiwan 2025/DJI_20260127150000_0182_D.MP4", Id: 0f50ef71-cb4e-d9b6-9e6b-4427a5a0de63
+[2026-02-27 06:34:53.627 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260127150004_0183_D", Path: "/media/photos/Taiwan 2025/DJI_20260127150004_0183_D.MP4", Id: e4e5e581-347b-996f-b15d-9c1f9bc868da
+[2026-02-27 06:34:53.652 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260131123624_0184_D", Path: "/media/photos/Taiwan 2025/DJI_20260131123624_0184_D.MP4", Id: 76bae561-af35-6690-84e6-bb6cba887ded
+[2026-02-27 06:34:53.676 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260131181804_0185_D", Path: "/media/photos/Taiwan 2025/DJI_20260131181804_0185_D.MP4", Id: a114fed5-6a66-84c4-00b9-4ce364d13189
+[2026-02-27 06:34:53.703 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260131193717_0186_D", Path: "/media/photos/Taiwan 2025/DJI_20260131193717_0186_D.MP4", Id: 453a910a-b906-fc6c-6175-1f96fffcd8f6
+[2026-02-27 06:34:53.728 +00:00] [INF] [74] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "DJI_20260131193738_0187_D", Path: "/media/photos/Taiwan 2025/DJI_20260131193738_0187_D.MP4", Id: a6c5a557-fe8b-52c1-3318-4378d540a44c
+[2026-02-27 06:38:41.231 +00:00] [INF] [73] MediaBrowser.Providers.MediaInfo.VideoImageProvider: Skipping image extraction due to missing DefaultVideoStreamIndex for "/media/photos/Taiwan 2025/DJI_20260127150000_0182_D.MP4".
+[2026-02-27 06:38:45.824 +00:00] [INF] [73] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 4 minute(s) and 6 seconds
+[2026-02-27 06:38:46.021 +00:00] [INF] [69] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
+[2026-02-27 06:41:41.716 +00:00] [WRN] [58] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.4.215" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-02-27 06:41:41.718 +00:00] [INF] [58] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 10:50:45.999 +00:00] [INF] [51] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-02-27 10:50:46.243 +00:00] [INF] [51] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-02-27 10:50:46.244 +00:00] [INF] [51] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 11:33:14.662 +00:00] [INF] [63] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:33:35.035 +00:00] [INF] [64] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 11:33:58.322 +00:00] [INF] [64] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "Harry Potter and the Prisoner of Azkaban". Stopped at "47356" ms
+[2026-02-27 11:34:04.665 +00:00] [INF] [9] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 11:34:14.807 +00:00] [INF] [64] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "DJI_20260131123624_0184_D". Stopped at "11713" ms
+[2026-02-27 11:35:47.368 +00:00] [INF] [64] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:35:47.714 +00:00] [INF] [64] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:41:51.081 +00:00] [INF] [118] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "Chengwei" has succeeded.
+[2026-02-27 11:41:51.082 +00:00] [INF] [118] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "Chengwei": 1/0
+[2026-02-27 11:41:51.082 +00:00] [INF] [118] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 5f5fa1dd-ceef-4248-83c5-43025cde9604
+[2026-02-27 11:41:51.146 +00:00] [INF] [61] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.38" request
+[2026-02-27 11:42:23.826 +00:00] [INF] [57] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 11:42:24.452 +00:00] [WRN] [116] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.4.215" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-02-27 11:42:24.454 +00:00] [INF] [116] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:42:46.740 +00:00] [INF] [61] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "DJI_20260101090202_0042_D". Stopped at "19389" ms
+[2026-02-27 11:43:13.346 +00:00] [INF] [113] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-02-27 11:43:25.156 +00:00] [INF] [78] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "Harry Potter and the Chamber of Secrets". Stopped at "1498237" ms
+[2026-02-27 11:51:58.886 +00:00] [INF] [20] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:52:00.974 +00:00] [INF] [20] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:52:01.624 +00:00] [INF] [99] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:52:29.002 +00:00] [INF] [81] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2026-02-27 11:52:29.229 +00:00] [WRN] [58] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 11:52:29.229 +00:00] [INF] [58] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Folder", Name: "media", Path: "/media", Id: 92fde71d-0ec5-77b5-31e7-b3427b223bed
+[2026-02-27 11:52:29.929 +00:00] [INF] [81] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-02-27 11:52:29.951 +00:00] [WRN] [81] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 11:52:29.981 +00:00] [WRN] [58] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 11:53:58.661 +00:00] [INF] [84] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:53:59.092 +00:00] [INF] [84] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:54:52.866 +00:00] [INF] [7] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:54:53.311 +00:00] [INF] [19] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:54:57.500 +00:00] [INF] [84] MediaBrowser.Providers.MediaInfo.VideoImageProvider: Skipping image extraction due to missing DefaultVideoStreamIndex for "/media/photos/Taiwan 2025/DJI_20260127150000_0182_D.MP4".
+[2026-02-27 11:55:00.599 +00:00] [INF] [19] Emby.Server.Implementations.Library.Validators.GenresValidator: Deleting dead "Genre" "51cec9645b896084d12b259acd05ccb1" "Adventure"
+[2026-02-27 11:55:00.600 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Genre", Name: "Adventure", Path: "/config/metadata/Genre/Adventure", Id: 51cec964-5b89-6084-d12b-259acd05ccb1
+[2026-02-27 11:55:00.602 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Deleting item path, Type: "Genre", Name: "Adventure", Path: "/config/metadata/Genre/Adventure", Id: 51cec964-5b89-6084-d12b-259acd05ccb1
+[2026-02-27 11:55:00.631 +00:00] [INF] [19] Emby.Server.Implementations.Library.Validators.GenresValidator: Deleting dead "Genre" "a30dcc65be22eb3c21c03f7c1c7a57d1" "Fantasy"
+[2026-02-27 11:55:00.631 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Genre", Name: "Fantasy", Path: "/config/metadata/Genre/Fantasy", Id: a30dcc65-be22-eb3c-21c0-3f7c1c7a57d1
+[2026-02-27 11:55:00.631 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Deleting item path, Type: "Genre", Name: "Fantasy", Path: "/config/metadata/Genre/Fantasy", Id: a30dcc65-be22-eb3c-21c0-3f7c1c7a57d1
+[2026-02-27 11:55:00.662 +00:00] [INF] [19] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "Studio" "799ff6827493b29348b4077e3ddb2833" "1492 Pictures"
+[2026-02-27 11:55:00.662 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "1492 Pictures", Path: "/config/metadata/Studio/1492 Pictures", Id: 799ff682-7493-b293-48b4-077e3ddb2833
+[2026-02-27 11:55:00.662 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Deleting item path, Type: "Studio", Name: "1492 Pictures", Path: "/config/metadata/Studio/1492 Pictures", Id: 799ff682-7493-b293-48b4-077e3ddb2833
+[2026-02-27 11:55:00.689 +00:00] [INF] [19] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "Studio" "9d4615a9c392f7eecedf6ea05f127c5a" "Heyday Films"
+[2026-02-27 11:55:00.689 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "Heyday Films", Path: "/config/metadata/Studio/Heyday Films", Id: 9d4615a9-c392-f7ee-cedf-6ea05f127c5a
+[2026-02-27 11:55:00.689 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Deleting item path, Type: "Studio", Name: "Heyday Films", Path: "/config/metadata/Studio/Heyday Films", Id: 9d4615a9-c392-f7ee-cedf-6ea05f127c5a
+[2026-02-27 11:55:00.711 +00:00] [INF] [19] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "Studio" "8f52f05827d00473a40cc0f4d917add7" "MIRACLE Productions"
+[2026-02-27 11:55:00.711 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "MIRACLE Productions", Path: "/config/metadata/Studio/MIRACLE Productions", Id: 8f52f058-27d0-0473-a40c-c0f4d917add7
+[2026-02-27 11:55:00.711 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Deleting item path, Type: "Studio", Name: "MIRACLE Productions", Path: "/config/metadata/Studio/MIRACLE Productions", Id: 8f52f058-27d0-0473-a40c-c0f4d917add7
+[2026-02-27 11:55:00.733 +00:00] [INF] [19] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "Studio" "51d3919828290fa350b58e66980b1ec0" "P of A Productions"
+[2026-02-27 11:55:00.733 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "P of A Productions", Path: "/config/metadata/Studio/P of A Productions", Id: 51d39198-2829-0fa3-50b5-8e66980b1ec0
+[2026-02-27 11:55:00.733 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Deleting item path, Type: "Studio", Name: "P of A Productions", Path: "/config/metadata/Studio/P of A Productions", Id: 51d39198-2829-0fa3-50b5-8e66980b1ec0
+[2026-02-27 11:55:00.755 +00:00] [INF] [19] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "Studio" "3fc63208ae63fa64a67db18e32c13476" "Warner Bros. Pictures"
+[2026-02-27 11:55:00.755 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "Warner Bros. Pictures", Path: "/config/metadata/Studio/Warner Bros. Pictures", Id: 3fc63208-ae63-fa64-a67d-b18e32c13476
+[2026-02-27 11:55:00.755 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Deleting item path, Type: "Studio", Name: "Warner Bros. Pictures", Path: "/config/metadata/Studio/Warner Bros. Pictures", Id: 3fc63208-ae63-fa64-a67d-b18e32c13476
+[2026-02-27 11:55:00.785 +00:00] [INF] [19] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 2 minute(s) and 30 seconds
+[2026-02-27 11:55:00.857 +00:00] [INF] [74] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/photos"
+[2026-02-27 11:55:34.345 +00:00] [INF] [83] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-02-27 11:55:34.372 +00:00] [INF] [100] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.38" closed
+[2026-02-27 11:55:34.372 +00:00] [INF] [58] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:55:34.379 +00:00] [INF] [74] Main: Running query planner optimizations in the database... This might take a while
+[2026-02-27 11:55:34.772 +00:00] [INF] [58] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/photos"
+[2026-02-27 11:55:34.776 +00:00] [INF] [74] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-02-27 11:55:34.776 +00:00] [INF] [74] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2026-02-27 11:55:34.776 +00:00] [INF] [74] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2026-02-27 11:55:34.776 +00:00] [INF] [74] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"
+[2026-02-27 11:55:56.601 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-02-27 11:55:56.786 +00:00] [INF] [7] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-02-27 11:55:56.811 +00:00] [INF] [7] Main: Jellyfin version: "10.11.6"
+[2026-02-27 11:55:56.814 +00:00] [INF] [7] Main: Environment Variables: ["[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]"]
+[2026-02-27 11:55:56.816 +00:00] [INF] [7] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2026-02-27 11:55:56.816 +00:00] [INF] [7] Main: Operating system: "Debian GNU/Linux 13 (trixie)"
+[2026-02-27 11:55:56.816 +00:00] [INF] [7] Main: Architecture: X64
+[2026-02-27 11:55:56.816 +00:00] [INF] [7] Main: 64-Bit Process: True
+[2026-02-27 11:55:56.816 +00:00] [INF] [7] Main: User Interactive: True
+[2026-02-27 11:55:56.816 +00:00] [INF] [7] Main: Processor count: 8
+[2026-02-27 11:55:56.817 +00:00] [INF] [7] Main: Program data path: "/config"
+[2026-02-27 11:55:56.817 +00:00] [INF] [7] Main: Log directory path: "/config/log"
+[2026-02-27 11:55:56.817 +00:00] [INF] [7] Main: Config directory path: "/config/config"
+[2026-02-27 11:55:56.817 +00:00] [INF] [7] Main: Cache path: "/cache"
+[2026-02-27 11:55:56.817 +00:00] [INF] [7] Main: Temp directory path: "/tmp/jellyfin"
+[2026-02-27 11:55:56.817 +00:00] [INF] [7] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2026-02-27 11:55:56.817 +00:00] [INF] [7] Main: Application directory: "/jellyfin/"
+[2026-02-27 11:55:56.831 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config/data"` (Fixed) successfully checked with "854.9GiB" free which is over the minimum of "2GiB".
+[2026-02-27 11:55:56.832 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/cache"` (Fixed) successfully checked with "854.9GiB" free which is over the minimum of "2GiB".
+[2026-02-27 11:55:56.832 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config"` (Fixed) successfully checked with "854.9GiB" free which is over the minimum of "2GiB".
+[2026-02-27 11:55:56.834 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-02-27 11:55:56.888 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Default;Default Timeout=30;Pooling=True"
+[2026-02-27 11:55:56.894 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-02-27 11:55:56.895 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-02-27 11:55:56.921 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-02-27 11:55:57.669 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage PreInitialisation.
+[2026-02-27 11:55:57.678 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-02-27 11:55:57.689 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-02-27 11:55:57.716 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-02-27 11:55:57.716 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-02-27 11:55:57.717 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-02-27 11:55:57.718 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.28.0.2"]
+[2026-02-27 11:55:57.718 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-02-27 11:55:57.718 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-02-27 11:55:57.718 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-02-27 11:55:57.796 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Default;Default Timeout=30;Pooling=True"
+[2026-02-27 11:55:57.796 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-02-27 11:55:57.796 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-02-27 11:55:57.801 +00:00] [INF] [7] Main: Prepare system for possible migrations
+[2026-02-27 11:55:57.825 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage CoreInitialisation.
+[2026-02-27 11:55:58.292 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.11.6.0"
+[2026-02-27 11:55:58.293 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.11.6.0"
+[2026-02-27 11:55:58.293 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.11.6.0"
+[2026-02-27 11:55:58.302 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.11.6.0"
+[2026-02-27 11:55:58.302 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.11.6.0"
+[2026-02-27 11:55:58.341 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage AppInitialisation.
+[2026-02-27 11:55:58.359 +00:00] [WRN] [12] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2026-02-27 11:55:58.360 +00:00] [WRN] [12] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2026-02-27 11:55:58.392 +00:00] [INF] [12] Main: Kestrel is listening on "0.0.0.0"
+[2026-02-27 11:55:58.402 +00:00] [WRN] [13] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {7fc9cfa2-8fb5-407e-b540-6925a7fd14be} may be persisted to storage in unencrypted form.
+[2026-02-27 11:55:58.966 +00:00] [WRN] [12] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2026-02-27 11:55:58.990 +00:00] [INF] [12] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/media/photos" because the path does not exist
+[2026-02-27 11:55:58.990 +00:00] [INF] [12] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-02-27 11:55:59.005 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-02-28 03:00:00.000 +00:00, which is 15:04:00.9948667 from now.
+[2026-02-27 11:55:59.105 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-02-28 02:00:00.000 +00:00, which is 14:04:00.8944483 from now.
+[2026-02-27 11:55:59.158 +00:00] [INF] [12] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "7.1.3"
+[2026-02-27 11:55:59.207 +00:00] [INF] [12] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-02-27 11:55:59.224 +00:00] [INF] [12] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-02-27 11:55:59.242 +00:00] [INF] [12] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-02-27 11:55:59.471 +00:00] [INF] [12] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2026-02-27 11:56:01.267 +00:00] [INF] [12] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-02-27 11:56:01.268 +00:00] [INF] [12] Emby.Server.Implementations.ApplicationHost: ServerId: "f8af00bbd0db4732a02d3170a4b6d1ff"
+[2026-02-27 11:56:01.268 +00:00] [INF] [12] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-02-27 11:56:01.268 +00:00] [INF] [12] Main: Startup complete 0:00:04.9828821
+[2026-02-27 11:56:02.147 +00:00] [INF] [19] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 11:56:02.212 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 11:56:02.374 +00:00] [INF] [19] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:56:02.628 +00:00] [INF] [19] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:56:02.984 +00:00] [INF] [13] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:56:02.992 +00:00] [WRN] [13] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.4.215" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-02-27 11:56:02.995 +00:00] [INF] [13] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:56:03.060 +00:00] [ERR] [19] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Unexpected end of request content". URL "POST" "/Sessions/Capabilities/Full".
+[2026-02-27 11:56:03.061 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 11:56:03.520 +00:00] [INF] [12] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:56:04.392 +00:00] [INF] [20] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 11:56:04.682 +00:00] [INF] [20] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 11:56:24.670 +00:00] [ERR] [19] Emby.Server.Implementations.Library.LibraryManager: Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileSystemInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2026-02-27 11:56:24.676 +00:00] [ERR] [19] Emby.Server.Implementations.Library.LibraryManager: Error in "PlaylistResolver" resolving "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2026-02-27 11:56:24.780 +00:00] [ERR] [19] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2026-02-27 11:56:24.780 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media/photos" is inaccessible or empty, skipping
+[2026-02-27 11:56:24.802 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 11:56:24.894 +00:00] [ERR] [19] MediaBrowser.Providers.Folders.CollectionFolderMetadataService: Error validating images for "/config/root/default/Home Videos and Photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, String searchPattern, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.<GetImages>b__15_0(String i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.OrderedIterator`1.ToList()
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.GetImages(BaseItem item, IEnumerable`1 paths, IDirectoryService directoryService)
+   at MediaBrowser.LocalMetadata.Images.CollectionFolderLocalImageProvider.GetImages(BaseItem item, IDirectoryService directoryService)
+   at MediaBrowser.Providers.Manager.ItemImageProvider.<>c__DisplayClass7_0.<ValidateImages>b__0(ILocalImageProvider i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at MediaBrowser.Providers.Manager.ItemImageProvider.ValidateImages(BaseItem item, IEnumerable`1 providers, ImageRefreshOptions refreshOptions)
+   at MediaBrowser.Providers.Manager.MetadataService`2.RefreshMetadata(BaseItem item, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+[2026-02-27 11:56:24.952 +00:00] [ERR] [13] MediaBrowser.Providers.Folders.CollectionFolderMetadataService: Error validating images for "/config/root/default/Home Videos and Photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, String searchPattern, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.<GetImages>b__15_0(String i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.OrderedIterator`1.ToList()
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.GetImages(BaseItem item, IEnumerable`1 paths, IDirectoryService directoryService)
+   at MediaBrowser.LocalMetadata.Images.CollectionFolderLocalImageProvider.GetImages(BaseItem item, IDirectoryService directoryService)
+   at MediaBrowser.Providers.Manager.ItemImageProvider.<>c__DisplayClass7_0.<ValidateImages>b__0(ILocalImageProvider i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at MediaBrowser.Providers.Manager.ItemImageProvider.ValidateImages(BaseItem item, IEnumerable`1 providers, ImageRefreshOptions refreshOptions)
+   at MediaBrowser.Providers.Manager.MetadataService`2.RefreshMetadata(BaseItem item, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+[2026-02-27 11:56:24.965 +00:00] [INF] [12] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-02-27 11:56:25.080 +00:00] [ERR] [19] Emby.Server.Implementations.Library.LibraryManager: Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileSystemInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2026-02-27 11:56:25.080 +00:00] [ERR] [19] Emby.Server.Implementations.Library.LibraryManager: Error in "PlaylistResolver" resolving "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2026-02-27 11:56:25.081 +00:00] [ERR] [19] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2026-02-27 11:56:25.082 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media/photos" is inaccessible or empty, skipping
+[2026-02-27 11:56:25.098 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 11:56:25.106 +00:00] [ERR] [19] MediaBrowser.Providers.Folders.CollectionFolderMetadataService: Error validating images for "/config/root/default/Home Videos and Photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, String searchPattern, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.<GetImages>b__15_0(String i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.OrderedIterator`1.ToList()
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.GetImages(BaseItem item, IEnumerable`1 paths, IDirectoryService directoryService)
+   at MediaBrowser.LocalMetadata.Images.CollectionFolderLocalImageProvider.GetImages(BaseItem item, IDirectoryService directoryService)
+   at MediaBrowser.Providers.Manager.ItemImageProvider.<>c__DisplayClass7_0.<ValidateImages>b__0(ILocalImageProvider i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at MediaBrowser.Providers.Manager.ItemImageProvider.ValidateImages(BaseItem item, IEnumerable`1 providers, ImageRefreshOptions refreshOptions)
+   at MediaBrowser.Providers.Manager.MetadataService`2.RefreshMetadata(BaseItem item, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+[2026-02-27 11:56:25.114 +00:00] [ERR] [12] MediaBrowser.Providers.Folders.CollectionFolderMetadataService: Error validating images for "/config/root/default/Home Videos and Photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, String searchPattern, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.<GetImages>b__15_0(String i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.OrderedIterator`1.ToList()
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.GetImages(BaseItem item, IEnumerable`1 paths, IDirectoryService directoryService)
+   at MediaBrowser.LocalMetadata.Images.CollectionFolderLocalImageProvider.GetImages(BaseItem item, IDirectoryService directoryService)
+   at MediaBrowser.Providers.Manager.ItemImageProvider.<>c__DisplayClass7_0.<ValidateImages>b__0(ILocalImageProvider i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at MediaBrowser.Providers.Manager.ItemImageProvider.ValidateImages(BaseItem item, IEnumerable`1 providers, ImageRefreshOptions refreshOptions)
+   at MediaBrowser.Providers.Manager.MetadataService`2.RefreshMetadata(BaseItem item, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+[2026-02-27 11:56:25.138 +00:00] [ERR] [12] Emby.Server.Implementations.Library.LibraryManager: Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileSystemInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2026-02-27 11:56:25.138 +00:00] [ERR] [12] Emby.Server.Implementations.Library.LibraryManager: Error in "PlaylistResolver" resolving "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2026-02-27 11:56:25.138 +00:00] [ERR] [12] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2026-02-27 11:56:25.138 +00:00] [WRN] [12] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media/photos" is inaccessible or empty, skipping
+[2026-02-27 11:56:25.173 +00:00] [WRN] [12] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 11:56:25.644 +00:00] [ERR] [19] MediaBrowser.Providers.Movies.MovieMetadataService: Error in "Probe Provider"
+MediaBrowser.Common.FfmpegException: ffprobe failed - streams and format are both null.
+   at MediaBrowser.MediaEncoding.Encoder.MediaEncoder.GetMediaInfoInternal(String inputPath, String primaryPath, MediaProtocol protocol, Boolean extractChapters, String probeSizeArgument, Boolean isAudio, Nullable`1 videoType, CancellationToken cancellationToken)
+   at MediaBrowser.MediaEncoding.Encoder.MediaEncoder.GetMediaInfoInternal(String inputPath, String primaryPath, MediaProtocol protocol, Boolean extractChapters, String probeSizeArgument, Boolean isAudio, Nullable`1 videoType, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.MediaInfo.FFProbeVideoInfo.ProbeVideo[T](T item, MetadataRefreshOptions options, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.MetadataService`2.RunCustomProvider(ICustomMetadataProvider`1 provider, TItemType item, String logName, MetadataRefreshOptions options, RefreshResult refreshResult, CancellationToken cancellationToken)
+[2026-02-27 11:56:56.181 +00:00] [INF] [9] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/media/photos" because the path does not exist
+[2026-02-27 11:56:56.182 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 31 seconds
+[2026-02-27 11:56:56.274 +00:00] [INF] [13] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/Movies"
+[2026-02-27 12:02:40.682 +00:00] [INF] [47] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 12:06:28.685 +00:00] [INF] [28] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 12:10:16.686 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 12:14:04.682 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-27 12:15:33.754 +00:00] [WRN] [75] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.4.215" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-02-27 12:15:34.227 +00:00] [INF] [75] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 17:56:59.123 +00:00] [INF] [36] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-02-27 17:56:59.361 +00:00] [INF] [36] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-02-27 17:56:59.361 +00:00] [INF] [36] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 23:54:42.777 +00:00] [INF] [3] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 23:54:43.647 +00:00] [INF] [3] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-27 23:54:43.971 +00:00] [INF] [29] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-02-27 23:56:59.124 +00:00] [INF] [35] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/Movies"
+[2026-02-27 23:56:59.126 +00:00] [INF] [35] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-02-27 23:56:59.245 +00:00] [ERR] [35] Emby.Server.Implementations.Library.LibraryManager: Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileSystemInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2026-02-27 23:56:59.246 +00:00] [ERR] [35] Emby.Server.Implementations.Library.LibraryManager: Error in "PlaylistResolver" resolving "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.EnumerateFiles(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2026-02-27 23:56:59.247 +00:00] [ERR] [35] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2026-02-27 23:56:59.248 +00:00] [WRN] [35] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media/photos" is inaccessible or empty, skipping
+[2026-02-27 23:56:59.283 +00:00] [INF] [37] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Media Segment Scan" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 23:56:59.355 +00:00] [WRN] [35] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 23:56:59.359 +00:00] [ERR] [37] MediaBrowser.Providers.Folders.CollectionFolderMetadataService: Error validating images for "/config/root/default/Home Videos and Photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, String searchPattern, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.<GetImages>b__15_0(String i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.OrderedIterator`1.ToList()
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.GetImages(BaseItem item, IEnumerable`1 paths, IDirectoryService directoryService)
+   at MediaBrowser.LocalMetadata.Images.CollectionFolderLocalImageProvider.GetImages(BaseItem item, IDirectoryService directoryService)
+   at MediaBrowser.Providers.Manager.ItemImageProvider.<>c__DisplayClass7_0.<ValidateImages>b__0(ILocalImageProvider i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at MediaBrowser.Providers.Manager.ItemImageProvider.ValidateImages(BaseItem item, IEnumerable`1 providers, ImageRefreshOptions refreshOptions)
+   at MediaBrowser.Providers.Manager.MetadataService`2.RefreshMetadata(BaseItem item, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+[2026-02-27 23:57:00.098 +00:00] [ERR] [37] MediaBrowser.Providers.Folders.CollectionFolderMetadataService: Error validating images for "/config/root/default/Home Videos and Photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, String searchPattern, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.<GetImages>b__15_0(String i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.OrderedIterator`1.ToList()
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.GetImages(BaseItem item, IEnumerable`1 paths, IDirectoryService directoryService)
+   at MediaBrowser.LocalMetadata.Images.CollectionFolderLocalImageProvider.GetImages(BaseItem item, IDirectoryService directoryService)
+   at MediaBrowser.Providers.Manager.ItemImageProvider.<>c__DisplayClass7_0.<ValidateImages>b__0(ILocalImageProvider i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at MediaBrowser.Providers.Manager.ItemImageProvider.ValidateImages(BaseItem item, IEnumerable`1 providers, ImageRefreshOptions refreshOptions)
+   at MediaBrowser.Providers.Manager.MetadataService`2.RefreshMetadata(BaseItem item, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+[2026-02-27 23:57:00.107 +00:00] [ERR] [37] Emby.Server.Implementations.Library.LibraryManager: Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2026-02-27 23:57:00.107 +00:00] [ERR] [37] Emby.Server.Implementations.Library.LibraryManager: Error in "PlaylistResolver" resolving "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.EnumerateFiles(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2026-02-27 23:57:00.107 +00:00] [ERR] [37] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2026-02-27 23:57:00.107 +00:00] [WRN] [37] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media/photos" is inaccessible or empty, skipping
+[2026-02-27 23:57:00.123 +00:00] [WRN] [37] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-02-27 23:57:00.244 +00:00] [INF] [32] MediaBrowser.Providers.Movies.MovieMetadataService: File changed, pruning extracted data: "/media/Movies/Avatar.Fire.and.Ash.2025.1080p.TS.EN-RGB/Avatar.Fire.and.Ash.2025.1080p.TS.EN-RGB.mp4"
+[2026-02-27 23:57:00.319 +00:00] [ERR] [32] MediaBrowser.Providers.Movies.MovieMetadataService: Error in "Probe Provider"
+MediaBrowser.Common.FfmpegException: ffprobe failed - streams and format are both null.
+   at MediaBrowser.MediaEncoding.Encoder.MediaEncoder.GetMediaInfoInternal(String inputPath, String primaryPath, MediaProtocol protocol, Boolean extractChapters, String probeSizeArgument, Boolean isAudio, Nullable`1 videoType, CancellationToken cancellationToken)
+   at MediaBrowser.MediaEncoding.Encoder.MediaEncoder.GetMediaInfoInternal(String inputPath, String primaryPath, MediaProtocol protocol, Boolean extractChapters, String probeSizeArgument, Boolean isAudio, Nullable`1 videoType, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.MediaInfo.FFProbeVideoInfo.ProbeVideo[T](T item, MetadataRefreshOptions options, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.MetadataService`2.RunCustomProvider(ICustomMetadataProvider`1 provider, TItemType item, String logName, MetadataRefreshOptions options, RefreshResult refreshResult, CancellationToken cancellationToken)
+[2026-02-27 23:57:02.236 +00:00] [INF] [38] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/media/photos" because the path does not exist
+[2026-02-27 23:57:02.236 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 3 seconds
+[2026-02-27 23:57:02.311 +00:00] [INF] [32] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/Movies"
+[2026-02-27 23:58:00.127 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-02-27 23:58:00.662 +00:00] [INF] [38] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-02-27 23:58:00.662 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2026-02-27 23:58:31.977 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.

@@ -1,0 +1,10 @@
+[2026-02-28 00:02:19.973 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-28 00:06:07.971 +00:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-28 00:10:31.976 +00:00] [INF] [124] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-28 00:14:19.973 +00:00] [INF] [121] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-28 00:18:07.974 +00:00] [INF] [77] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-28 00:22:31.970 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-28 00:26:19.976 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-02-28 00:27:15.395 +00:00] [INF] [69] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-02-28 02:00:00.076 +00:00] [INF] [112] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2026-02-28 02:00:01.004 +00:00] [INF] [119] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-03-01 02:00:00.000 +00:00, which is 23:59:58.9951938 from now.

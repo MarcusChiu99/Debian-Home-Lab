@@ -8,6 +8,6 @@ services:
     volumes:
       - /home/chengwei1/docker/jellyfin/config:/config
       - /home/chengwei1/docker/jellyfin/cache:/cache
-      - /mnt/Movies:/media
-      - /mnt/photo-folder:/media/photos
+      - /mnt/Movies:/media/Movies
+      - /mnt/photo-folder:/photos
     restart: unless-stopped
