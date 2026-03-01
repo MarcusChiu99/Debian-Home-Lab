@@ -1,0 +1,107 @@
+[2026-03-01 00:02:04.198 +00:00] [INF] [104] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-03-01 00:02:04.685 +00:00] [INF] [104] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-03-01 00:02:04.685 +00:00] [INF] [104] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2026-03-01 02:00:00.058 +00:00] [INF] [56] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2026-03-01 02:00:00.998 +00:00] [INF] [56] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-03-02 02:00:00.000 +00:00, which is 23:59:59.0012409 from now.
+[2026-03-01 03:00:00.099 +00:00] [INF] [53] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 0 seconds
+[2026-03-01 03:00:01.002 +00:00] [INF] [120] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-03-02 03:00:00.000 +00:00, which is 23:59:58.9976174 from now.
+[2026-03-01 06:03:05.200 +00:00] [INF] [146] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-03-01 06:03:05.552 +00:00] [INF] [146] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-03-01 06:03:05.552 +00:00] [INF] [146] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2026-03-01 08:20:49.307 +00:00] [INF] [26] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.53" request
+[2026-03-01 08:21:14.473 +00:00] [INF] [130] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/Movies"
+[2026-03-01 08:21:14.473 +00:00] [INF] [130] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-03-01 08:21:14.480 +00:00] [ERR] [130] Emby.Server.Implementations.Library.LibraryManager: Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2026-03-01 08:21:14.480 +00:00] [ERR] [130] Emby.Server.Implementations.Library.LibraryManager: Error in "PlaylistResolver" resolving "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2026-03-01 08:21:14.480 +00:00] [ERR] [130] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.EnumerateFileSystemEntries(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2026-03-01 08:21:14.480 +00:00] [WRN] [130] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media/photos" is inaccessible or empty, skipping
+[2026-03-01 08:21:14.541 +00:00] [WRN] [130] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-03-01 08:21:14.555 +00:00] [ERR] [95] MediaBrowser.Providers.Folders.CollectionFolderMetadataService: Error validating images for "/config/root/default/Home Videos and Photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, String searchPattern, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.<GetImages>b__15_0(String i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.OrderedIterator`1.ToList()
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.GetImages(BaseItem item, IEnumerable`1 paths, IDirectoryService directoryService)
+   at MediaBrowser.LocalMetadata.Images.CollectionFolderLocalImageProvider.GetImages(BaseItem item, IDirectoryService directoryService)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at MediaBrowser.Providers.Manager.MetadataService`2.RefreshMetadata(BaseItem item, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+[2026-03-01 08:21:14.563 +00:00] [ERR] [130] MediaBrowser.Providers.Folders.CollectionFolderMetadataService: Error validating images for "/config/root/default/Home Videos and Photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, String searchPattern, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFiles(String path, IReadOnlyList`1 extensions, Boolean enableCaseSensitiveExtensions, Boolean recursive)
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.<GetImages>b__15_0(String i)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.OrderedIterator`1.ToList()
+   at MediaBrowser.LocalMetadata.Images.LocalImageProvider.GetImages(BaseItem item, IEnumerable`1 paths, IDirectoryService directoryService)
+   at MediaBrowser.LocalMetadata.Images.CollectionFolderLocalImageProvider.GetImages(BaseItem item, IDirectoryService directoryService)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at MediaBrowser.Providers.Manager.MetadataService`2.RefreshMetadata(BaseItem item, MetadataRefreshOptions refreshOptions, CancellationToken cancellationToken)
+[2026-03-01 08:21:14.578 +00:00] [ERR] [130] Emby.Server.Implementations.Library.LibraryManager: Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2026-03-01 08:21:14.579 +00:00] [ERR] [130] Emby.Server.Implementations.Library.LibraryManager: Error in "PlaylistResolver" resolving "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2026-03-01 08:21:14.580 +00:00] [ERR] [130] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path "/media/photos"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/media/photos'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.EnumerateFileSystemEntries(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2026-03-01 08:21:14.580 +00:00] [WRN] [130] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media/photos" is inaccessible or empty, skipping
+[2026-03-01 08:21:14.600 +00:00] [WRN] [130] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-03-01 08:22:21.891 +00:00] [INF] [34] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-03-01 08:22:34.027 +00:00] [ERR] [106] MediaBrowser.Providers.Movies.MovieMetadataService: Error in "The Open Movie Database"
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 503 (Service Unavailable).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Plugins.Omdb.OmdbProvider.EnsureItemInfo(String imdbId, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Plugins.Omdb.OmdbProvider.GetRootObject(String imdbId, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Plugins.Omdb.OmdbProvider.Fetch[T](MetadataResult`1 itemResult, String imdbId, String language, String country, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Plugins.Omdb.OmdbItemProvider.GetResult[T](ItemLookupInfo info, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.MetadataService`2.ExecuteRemoteProviders(MetadataResult`1 temp, String logName, Boolean replaceData, TIdType id, IEnumerable`1 providers, CancellationToken cancellationToken)
+[2026-03-01 08:22:47.378 +00:00] [INF] [34] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/media/photos" because the path does not exist
+[2026-03-01 08:22:47.378 +00:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 1 minute(s) and 32 seconds
+[2026-03-01 08:22:47.483 +00:00] [INF] [106] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/Movies"
+[2026-03-01 08:23:24.393 +00:00] [INF] [106] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "Back to the Future Part 2 (1989) [1080p]". Stopped at "59250" ms
+[2026-03-01 08:24:06.512 +00:00] [INF] [86] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" request
+[2026-03-01 08:24:08.459 +00:00] [INF] [17] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-03-01 08:24:16.438 +00:00] [INF] [130] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "Back to the Future (Part II): Behind-the-Scenes Special Presentation". Stopped at "703244" ms
+[2026-03-01 08:25:43.006 +00:00] [INF] [35] MediaBrowser.Providers.Subtitles.SubtitleManager: Saving subtitles to "/media/Movies/Back to the Future Part 2 (1989) [1080p]/Back.to.the.Future.Part.2.1989.1080p.Brrip.x264.Deceit.YIFY.eng.srt"
+[2026-03-01 08:25:51.190 +00:00] [INF] [78] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-03-01 08:27:07.652 +00:00] [INF] [167] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.53" closed
+[2026-03-01 08:27:13.071 +00:00] [INF] [35] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.53" request
+[2026-03-01 08:27:23.279 +00:00] [INF] [170] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Chengwei". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-03-01 08:29:28.052 +00:00] [INF] [168] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.4.215" closed
+[2026-03-01 08:29:28.210 +00:00] [INF] [84] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.6" playing "Back to the Future (Part II): Behind-the-Scenes Special Presentation". Stopped at "1200157" ms
