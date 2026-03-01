@@ -11,7 +11,7 @@ services:
     environment:
       TZ: 'Australia/Sydney'
       FTLCONF_dns_listeningMode: 'ALL'
-      FTLCONF_webserver_api_password: 'password'
+      FTLCONF_webserver_api_password: ${PIHOLE_PASSWORD}
     volumes:
       - './etc-pihole:/etc/pihole'
     cap_add:
