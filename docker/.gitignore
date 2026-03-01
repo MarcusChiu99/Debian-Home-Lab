@@ -1,2 +1,11 @@
 .vscode/
 .env
+etc-pihole/
+# Pi-hole
+pi-hole/etc-pihole/
+
+# Portainer
+portainer/data/
+
+# Jellyfin
+jellyfin/config/data/
