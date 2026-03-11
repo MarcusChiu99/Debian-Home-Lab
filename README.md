@@ -1,4 +1,4 @@
-# Marcus's Debian Home Lab Documentation
+# Marcus's Debian Home Lab Documentation (WIP)
 
 ##  Overview
 
@@ -56,25 +56,3 @@ The lab includes Docker services, VS Code Remote development, SMB mounts, file m
 
 ---
 
-## 4. Docker Setup
-
-### 4.1 
-
----
-
-## 3. Git and Version Control
-
-- Initialized Git repositories for projects in `~/docker` and `~/docker/filebrowser`.   
-
-**GitHub workflow:**
-
-1. Create a new repository on GitHub.  
-2. Add local files (e.g., `docker-compose.yml`, configs).  
-3. Commit and push with the branch `main`.  
-4. Use **Personal Access Token (PAT)** instead of a password for HTTPS push.
-
----
-
-## 4. Docker Setup
-
-### 4.1 
