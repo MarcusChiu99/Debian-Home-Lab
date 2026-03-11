@@ -1,0 +1,18 @@
+services:
+  splunk:
+    image: splunk/splunk:latest
+    container_name: splunk
+    env_file:
+      - splunkpass.env
+    environment:
+      - SPLUNK_GENERAL_TERMS=--accept-sgt-current-at-splunk-com
+      - SPLUNK_START_ARGS=--accept-license
+    ports:
+      - "9000:8000"
+      - "9997:9997"
+      - "8088:8088"
+    volumes:
+      - splunk_data:/opt/splunk/var
+
+volumes:
+  splunk_data:
