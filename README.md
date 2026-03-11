@@ -17,8 +17,7 @@ The lab includes Docker services, VS Code Remote development, SMB mounts, file m
    - [VS Code Remote Server](#61-vs-code-remote-server)
    - [Public/Private Key Authentication](#62-publicprivate-key-authentication-for-debian)
 7. [Tailscale VPN](#7-tailscale-vpn)
-8. [GitHub Large Files Issue](#8-github-large-files-issue)
-9. [Home Lab Best Practices](#9-home-lab-best-practices)
+8. [Enterprise Splunk](#8-Splunk)
 10. [Summary of Projects](#10-summary-of-projects)
 ---
 
